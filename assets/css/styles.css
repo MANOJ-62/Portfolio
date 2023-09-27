@@ -295,12 +295,16 @@ img {
   border-radius: 0.5rem;
 }
 
+.btn.hire-me {
+  margin-left: 20px; /* Adjust the value to control the spacing */
+}
+
 .row
 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: 525px;
+    margin-right: -525px;
     position: relative;
 }
 .btn
@@ -314,12 +318,12 @@ img {
     white-space: nowrap;
     border: none;
     transition: all 0.3s ease;
-    background: var(--second-color);
+    background: var(--first-color);
 }
 .btn:hover
 {
     transform: scale(1.08);
-    background: var(--second-color);
+    background: var(--first-color);
 }
 .shadow-dark{
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
