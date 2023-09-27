@@ -14,6 +14,14 @@
   --gardient-color: linear-gradient(to right, #5001fb, #8e0af3);
 }
 
+body.dark{
+  --bg-black-900:#151515;
+  --bg-black-100:#222222;
+  --bg-black-50:#393939;
+  --text-black-900:#ffffff;
+  --text-black-700:#e9e9e9;
+}
+
 /* FONT STYLE */
 :root {
   --body-font: "Poppins", sans-serif;
@@ -285,6 +293,36 @@ img {
 .about_img svg {
   width: 300px;
   border-radius: 0.5rem;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+.btn
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    transition: all 0.3s ease;
+    background: var(--second-color);
+}
+.btn:hover
+{
+    transform: scale(1.08);
+    background: var(--second-color);
+}
+.shadow-dark{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
 /* SKILLS */
