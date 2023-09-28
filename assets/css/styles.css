@@ -203,13 +203,13 @@ img {
 .nav_logo
 {
     font-size: 30px;
-    font-family: serif;
+    font-family:'Lucida Handwriting', cursive;
     text-transform: capitalize;
 }
 
 .nav_logo a
 {
-    color: var(--nav-color);
+    color: var(--skin-color);
     font-weight: 700;
     padding: 9px 12px;
     font-size: 25px;
@@ -218,31 +218,32 @@ img {
 }
 .nav_logo a span
 {
-    font-family:serif;
-    font-size: 20x;
+    font-family:'Lucida Handwriting', cursive;
+    font-size: 40x;
 }
 
 /*
-
 .nav_logo a::before
 {
     content: '';
     position: absolute;
-    width: 15px;
-    height: 15px;
-    border-bottom: 5px solid var(--skin-color);
-    border-left: 5px solid var(--skin-color);
+    width: 137px;
+    height: 33px;
+    border-bottom: 2.5px solid var(--skin-color);
+    border-left: 2.5px solid var(--skin-color);
     bottom: 0;
     left: 0;
 }
+
+
 .nav_logo a::after
 {
     content: '';
     position: absolute;
-    width: 15px;
-    height: 15px;
-    border-top: 5px solid var(--skin-color);
-    border-right: 5px solid var(--skin-color);
+    width: 119px;
+    height: 30px;
+    border-top: 4px solid var(--skin-color);
+    border-right: 4px solid var(--skin-color);
     top: 0;
     right: 0;
 }
