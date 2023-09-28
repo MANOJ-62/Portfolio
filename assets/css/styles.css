@@ -21,6 +21,7 @@
   --second-color: #0e2431;
   --thierd-color: #0e2431;
   --skill-color: #4070f4;
+  --menu-color: #0e2431;
   --box-color: 0 4px 25px rgba(14, 36, 49, 0.15);
   --gardient-color: linear-gradient(to right, #5001fb, #8e0af3);
   --header-color: #fff;
@@ -36,6 +37,7 @@ body.dark{
   --first-color: hwb(0 11% 13% / 0.747);
   --thierd-color: #f5f7f8fd;
   --skill-color: #f5f7f8fd;
+  --menu-color: #f5f7f8fd;
   --header-color: #393939;
   background-color: var(--bg-black-100);
   color: var(--text-black-900);
@@ -155,7 +157,7 @@ img {
     position: fixed;
     top: var(--header-height);
     right: -100%;
-    width: 80%;
+    width: absolute;
     height: 100%;
     padding: 2rem;
     background-color: var(--second-color);
@@ -246,7 +248,7 @@ img {
 */
 
 .nav_toggle {
-  color: var(--second-color);
+  color: var(--menu-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -403,6 +405,19 @@ img {
 }
 .shadow-dark{
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .btn.hire-me {
+    margin-left: 2;
+  }
+  
 }
 
 /* SKILLS */
@@ -713,7 +728,7 @@ img {
   border: 1px solid red;
 }
 .style-switcher .color-1{
-  background: #ec1839;
+  background: #4070f4;
 }
 .style-switcher .color-2{
   background: #fa5b0f;
@@ -722,7 +737,7 @@ img {
   background: #37b182;
 }
 .style-switcher .color-4{
-  background: #4070f4;
+  background: #ec1839;
 }
 .style-switcher .color-5{
   background: #dde80c;
