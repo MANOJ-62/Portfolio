@@ -7,11 +7,24 @@
 }
 
 /* Colors */
+:root
+{
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+}
 
 :root {
   --first-color: #4070f4;
   --second-color: #0e2431;
+  --thierd-color: #0e2431;
+  --skill-color: #4070f4;
+  --box-color: 0 4px 25px rgba(14, 36, 49, 0.15);
   --gardient-color: linear-gradient(to right, #5001fb, #8e0af3);
+  --header-color: #fff;
+  --nav-color:#0e2431;
 }
 
 body.dark{
@@ -20,9 +33,14 @@ body.dark{
   --bg-black-50:#393939;
   --text-black-900:#ffffff;
   --text-black-700:#e9e9e9;
+  --first-color: hwb(0 11% 13% / 0.747);
+  --thierd-color: #f5f7f8fd;
+  --skill-color: #f5f7f8fd;
+  --header-color: #393939;
   background-color: var(--bg-black-100);
   color: var(--text-black-900);
-
+  --box-color: 0 4px 25px rgba(218, 224, 229, 0.548);
+  --nav-color:#f5f7f8fd;
 }
 
 /* FONT STYLE */
@@ -119,7 +137,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background: #fff;
+  background: var(--header-color);
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -156,6 +174,7 @@ img {
 
 .nav_link:hover {
   position: relative;
+  color: var(--skin-color);
 }
 
 .nav_link:hover::after {
@@ -165,12 +184,66 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--skin-color);
 }
 
+/*
 .nav_logo {
-  color: var(--second-color);
+  color: var(--nav-color);
 }
+*/
+
+.nav_logo a:hover {
+  color: var(--skin-color);
+}
+
+
+.nav_logo
+{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.nav_logo a
+{
+    color: var(--nav-color);
+    font-weight: 700;
+    padding: 9px 12px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    position: relative;
+}
+.nav_logo a span
+{
+    font-family:sans-serif;
+    font-size: 30px;
+}
+
+/*
+
+.nav_logo a::before
+{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: 0;
+    left: 0;
+}
+.nav_logo a::after
+{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top: 0;
+    right: 0;
+}
+*/
 
 .nav_toggle {
   color: var(--second-color);
@@ -186,7 +259,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--skin-color);
 }
 
 .show {
@@ -208,7 +281,7 @@ img {
 }
 
 .home_title-color {
-  color: var(--first-color);
+  color: var(--skin-color);
 }
 
 .home_social {
@@ -220,11 +293,11 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: var(--thierd-color);
 }
 
 .home_social-icon:hover {
-  color: var(--first-color);
+  color: var(--skin-color);
 }
 
 .home_img {
@@ -260,7 +333,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: var(--skin-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -275,7 +348,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--skin-color);
 }
 
 /* ABOUT SECTION */
@@ -321,12 +394,12 @@ img {
     white-space: nowrap;
     border: none;
     transition: all 0.3s ease;
-    background: var(--first-color);
+    background: var(--skin-color);
 }
 .btn:hover
 {
     transform: scale(1.08);
-    background: var(--first-color);
+    background: var(--skin-color);
 }
 .shadow-dark{
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -355,13 +428,14 @@ img {
   padding: 0.5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: 0.5rem;
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  /*box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);*/
+  box-shadow: var(--box-color);
 }
 
 .skill_icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: var(--skill-color);
 }
 
 .skills_name {
@@ -373,7 +447,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: var(--skin-color);
   height: 0.25rem;
   border-radius: 0.5rem;
   z-index: var(--z-back);
@@ -511,7 +585,7 @@ img {
   }
 
   .nav_link {
-    color: var(--second-color);
+    color: var(--nav-color);
   }
 
   .home {
@@ -648,7 +722,7 @@ img {
   background: #37b182;
 }
 .style-switcher .color-4{
-  background: #071bf2;
+  background: #4070f4;
 }
 .style-switcher .color-5{
   background: #dde80c;
