@@ -742,3 +742,58 @@ img {
 .style-switcher .color-5{
   background: #dde80c;
 }
+
+/* CSS */
+/* Style the contact information items */
+.row1 {
+  display: flex;
+  justify-content: center; /* Center-align items horizontally */
+  align-items: center; /* Center-align items vertically */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+}
+
+.contact-info-item {
+  text-align: center; /* Center-align text */
+  margin: 0 15px; /* Add space between items horizontally */
+  cursor: pointer; /* Change cursor on hover */
+  transition: transform 0.3s, color 0.3s; /* Smooth transition for both transform and color on hover */
+}
+
+/* Style the icons within the contact information items */
+.contact-info-item .icon {
+  font-size: 24px; /* Adjust icon size */
+  color: #fff; /* Icon color */
+  margin-bottom: 10px; /* Spacing below the icon */
+}
+
+/* Style the contact information text (e.g., phone number, email) */
+.contact-info-item p {
+  font-size: 14px;
+  color: #e8dfec; /* Text color */
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+/* Add hover effect to both icon and text within the contact information item */
+.contact-info-item:hover .icon{
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  color: var(--skin-color); /* Change color on hover */
+}
+
+/* Style the copyright notice */
+.copyright {
+  text-align: center;
+  color: var(--skin-color); /* Text color for the copyright notice */
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+/* Media query for screens up to 768px (mobile screens) */
+@media (max-width: 768px) {
+  .row1 {
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+  }
+
+  .contact-info-item {
+    width: calc(33.3333% - 30px); /* Three items per row on mobile screens */
+    margin: 0 15px 20px; /* Add space between items and the bottom margin */
+  }
+}
