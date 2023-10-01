@@ -378,6 +378,7 @@ img {
 
 .btn.hire-me {
   margin-left: 20px; /* Adjust the value to control the spacing */
+  margin-top: 20px;
 }
 
 .row
@@ -419,6 +420,7 @@ img {
 
   .btn.hire-me {
     margin-left: 2;
+    margin-top: 20;
   }
   
 }
@@ -480,7 +482,7 @@ img {
 }
 
 .skill_Js{
-  width: 95%;
+  width: 75%;
 }
 
 .skill_spring {
@@ -764,7 +766,7 @@ img {
 
 /* Style the icons within the contact information items */
 .contact-info-item .icon {
-  font-size: 24px; 
+  font-size: 14px; 
   color: #fff;
   margin-bottom: 10px; 
 }
@@ -775,11 +777,13 @@ img {
   margin: 0; 
 }
 
-.contact-info-item:hover .icon{
-  transform: scale(1.1);
+a:hover .icon{
+  transform: scale(1.2);
   color: var(--skin-color); 
 }
-
+.contact-info-item .bx{
+  font-size: 18px;
+}
 /* Style the copyright notice */
 .copyright {
   text-align: center;
