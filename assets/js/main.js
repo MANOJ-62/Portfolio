@@ -26,3 +26,12 @@ function linkAction(){
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+
+// //
+// var typed=new Typed(".typing",{
+//       strings:["Java Full Stack Developer","React.Js Developer","Devops Engineer"],
+//       typeSpeed:90,
+//       backSpeed:60,
+//       loop:true
+//     })

@@ -67,6 +67,7 @@ body.dark{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
+  --mb-7: 1.2rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
@@ -222,13 +223,12 @@ img {
     font-size: 40x;
 }
 .nav_logo img{
-  width: 50px;
-  height: 50px;
-  border-radius: 51px;
+  width: 40px;
+  height: 40px;
+  border-radius: 41px;
 }
 
-
-/*
+/* 
 .nav_logo a::before
 {
   
@@ -253,8 +253,8 @@ img {
     border-right: 4px solid var(--skin-color);
     top: 0;
     right: 0;
-}
-*/
+} */
+
 
 .nav_toggle {
   color: var(--menu-color);
@@ -284,6 +284,17 @@ img {
 
 .home_data {
   align-self: center;
+}
+
+h3.my-profession
+{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.typing
+{
+    color: var(--skin-color);
 }
 
 .home_title {
@@ -526,6 +537,7 @@ img {
 
 .work_img img:hover {
   transform: scale(1.1);
+  
 }
 
 /* Contact */
@@ -597,7 +609,7 @@ img {
   }
 
   .nav_items {
-    margin-left: var(--mb-6);
+    margin-left: var(--mb-7);
     margin-bottom: 0;
   }
 
