@@ -39,7 +39,7 @@
             <a href="#skills" class="nav_link active">Skills</a>
           </li>
           <li class="nav_items">
-            <a href="#work" class="nav_link active">Work</a>
+            <a href="#work" class="nav_link active">Certificates</a>
           </li>
           <li class="nav_items">
             <a href="#contact" class="nav_link active">Contact</a>
@@ -575,6 +575,47 @@
       </div>
     </section> -->
 
+    <section class="work section" id="work">
+      <h2 class="section-title" data-aos="fade-down">Certificates</h2>
+      <div class="work_container bd_grid" data-aos="fade-down" data-aos-delay="250">
+        <!-- Certificate 1 -->
+        <div class="work_img" onclick="openModal(0)">
+          <img src="./assets/cerificates/Infosys_Certified_Java_Programmer.png" alt="Infosys Certified Java Programmer" />
+          <p class="cert-name">Infosys Certified Java Programmer</p>
+        </div>
+    
+        <!-- Certificate 2 -->
+        <div class="work_img" onclick="openModal(1)">
+          <img src="./assets/cerificates/Infosys_Certified_Spring_Microservices_Developer.png" alt="Infosys Certified Spring Microservices Developer" />
+          <p class="cert-name">Infosys Certified Spring Microservices Developer</p>
+        </div>
+    
+        <!-- Certificate 3 -->
+        <div class="work_img" onclick="openModal(2)">
+          <img src="./assets/cerificates/Infosys_Certified_L1_Junior_Open_Source_Programmer.png" alt="Infosys Certified L1 Junior Open Source Programmer" />
+          <p class="cert-name">Infosys Certified L1 Junior Open Source Programmer</p>
+        </div>
+    
+        <!-- Certificate 4 -->
+        <div class="work_img" onclick="openModal(3)">
+          <img src="./assets/cerificates/Infosys_Certified_L1_Junior_Web_Programmer.png" alt="Infosys Certified L1 Junior Web Programmer" />
+          <p class="cert-name">Infosys Certified L1 Junior Web Programmer</p>
+        </div>
+    
+        <!-- Certificate 5 -->
+        <div class="work_img" onclick="openModal(4)">
+          <img src="./assets/cerificates/Infosys_Certified_L1_Junior_Linux_Admin_Professional.png" alt="Infosys Certified L1 Junior Linux Admin Professional" />
+          <p class="cert-name">Infosys Certified L1 Junior Linux Admin Professional</p>
+        </div>
+    
+        <!-- Certificate 6 -->
+        <div class="work_img" onclick="openModal(5)">
+          <img src="./assets/cerificates/SpringBoot.png" alt="Spring Boot Certification" />
+          <p class="cert-name">Spring Boot Certification</p>
+        </div>
+      </div>
+    </section>
+
 
     <!-- CONTACT SECTION -->
 
@@ -695,7 +736,37 @@
       duration: 1200,
       once: false,
     });
+
+    function showModal(element) {
+    const modal = document.getElementById('certificateModal');
+    const modalImg = modal.querySelector('.modal-content');
+    const modalCaption = modal.querySelector('.modal-caption');
+
+    // Set the image source and certificate name
+    modalImg.src = element.querySelector('img').src;
+    modalCaption.textContent = element.getAttribute('data-cert-name');
+
+    // Show the modal
+    modal.style.display = 'flex';
+  }
+
+  // Close the modal
+  function closeModal() {
+    const modal = document.getElementById('certificateModal');
+    modal.style.display = 'none';
+  }
   </script>
 </body>
+
+<!-- Modal -->
+<div id="certificateModal" class="modal">
+  <span class="modal-close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImage" alt="Certificate Image">
+  <div class="modal-caption" id="modalCaption"></div>
+  <!-- Navigation buttons -->
+  <span class="modal-prev" onclick="navigateModal(-1)">&lt;</span>
+  <span class="modal-next" onclick="navigateModal(1)">&gt;</span>
+</div>
+
 
 </html>

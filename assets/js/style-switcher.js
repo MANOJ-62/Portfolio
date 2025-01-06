@@ -34,3 +34,14 @@ window.addEventListener("load", ()=>{
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 })
+
+// Default to Dark
+// window.addEventListener("load", () => {
+//     const savedTheme = localStorage.getItem("theme");
+//     if (savedTheme === "dark" || !savedTheme) { // Default to dark if no theme is saved
+//       document.body.classList.add("dark");
+//       dayNight.querySelector("i").classList.add("fa-sun");
+//     } else {
+//       dayNight.querySelector("i").classList.add("fa-moon");
+//     }
+//   });
