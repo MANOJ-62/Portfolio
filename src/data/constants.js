@@ -478,7 +478,7 @@ export const certificates = [
     id: 0,
     title: "Infosys Certified Java Programmer",
     date: "Nov 2024",
-    image: "https://manoj-62.github.io/Portfolio/assets/cerificates/Infosys_Certified_Java_Programmer.png",
+    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_Java_Programmer.png?raw=true",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -486,7 +486,7 @@ export const certificates = [
     id: 1,
     title: "Infosys Certified Spring Microservices Developer",
     date: "Nov 2024",
-    image: "https://manoj-62.github.io/Portfolio/assets/cerificates/Infosys_Certified_Spring_Microservices_Developer.png",
+    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_Spring_Microservices_Developer.png?raw=true",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -494,7 +494,7 @@ export const certificates = [
     id: 2,
     title: "Infosys Certified L1 Junior Web Programmer",
     date: "Nov 2024",
-    image: "https://manoj-62.github.io/Portfolio/assets/cerificates/Infosys_Certified_L1_Junior_Web_Programmer.png",
+    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_L1_Junior_Web_Programmer.png?raw=true",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -502,7 +502,7 @@ export const certificates = [
     id: 3,
     title: "Infosys Certified L1 Junior Linux Admin Professional",
     date: "Oct 2024",
-    image: "https://manoj-62.github.io/Portfolio/assets/cerificates/Infosys_Certified_L1_Junior_Linux_Admin_Professional.png",
+    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_L1_Junior_Linux_Admin_Professional.png?raw=true",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -510,7 +510,7 @@ export const certificates = [
     id: 4,
     title: "Infosys Certified L1 Junior Open Source Programmer",
     date: "Oct 2024",
-    image: "https://manoj-62.github.io/Portfolio/assets/cerificates/Infosys_Certified_L1_Junior_Open_Source_Programmer.png",
+    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_L1_Junior_Open_Source_Programmer.png?raw=true",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -518,7 +518,7 @@ export const certificates = [
     id: 5,
     title: "Spring Boot Certification",
     date: "Oct 2024",
-    image: "https://manoj-62.github.io/Portfolio/assets/cerificates/SpringBoot.png",
+    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/SpringBoot.png?raw=true",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
