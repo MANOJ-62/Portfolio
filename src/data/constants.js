@@ -12,8 +12,8 @@ export const Bio = {
       "driving significant reductions in deployment times and operational costs. Recognized for delivering projects on time and optimizing\n" +
       "inter-system communication.\n",
   github: "https://github.com/manoj-62",
-  resume:
-    "https://drive.google.com/file/d/1W-0TwZlOrgggCvf74gBZwDhgPeW25f1u/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1rUOydtiMpGastQEkaXtUa0PlO2xIIU1i/view?usp=drive_link",
+    // "https://drive.google.com/file/d/1W-0TwZlOrgggCvf74gBZwDhgPeW25f1u/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/manoj-r-47a683226",
   twitter: "https://twitter.com/Manoj626626",
   insta: "https://www.instagram.com/_._m__a__n__o__j_._",
