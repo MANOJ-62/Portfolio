@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/Portfolio/static/js/main.da18941b.js",
-    "static/media/HeroImage.jpg": "/Portfolio/static/media/HeroImage.4bb4d99af3f2164005e0.jpg",
-    "index.html": "/Portfolio/index.html",
-    "main.bf538fe7.css.map": "/Portfolio/static/css/main.bf538fe7.css.map",
-    "main.da18941b.js.map": "/Portfolio/static/js/main.da18941b.js.map"
+    "main.css": "https://manoj-62.github.io/Portfolio/static/css/main.bf538fe7.css",
+    "main.js": "https://manoj-62.github.io/Portfolio/static/js/main.5f235ceb.js",
+    "static/media/HeroImage.jpg": "https://manoj-62.github.io/Portfolio/static/media/HeroImage.4bb4d99af3f2164005e0.jpg",
+    "index.html": "https://manoj-62.github.io/Portfolio/index.html",
+    "main.bf538fe7.css.map": "https://manoj-62.github.io/Portfolio/static/css/main.bf538fe7.css.map",
+    "main.5f235ceb.js.map": "https://manoj-62.github.io/Portfolio/static/js/main.5f235ceb.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.da18941b.js"
+    "static/js/main.5f235ceb.js"
   ]
 }
