@@ -387,38 +387,38 @@ export const education = [
 ];
 
 export const projects = [
-  // {
-  //   id: 0,
-  //   title: "My Portfolio",
-  //   date: "Aug 2023 - Oct 2023",
-  //   description:
-  //     "This is my portfolio shows all my Bio in Discription.",
-  //   image:
-  //     "https://github.com/Raarav/my_portfolio/blob/master/Screenshot%20(101).png?raw=true",
-  //   tags: ["ReactJs", "JavaScript", "HTML", "CSS", "styled-completed", "NodeJs"],
-  //   category: "Frontend app",
-  //   github: "https://github.com/Raarav/my_portfolio",
-  //   webapp: "https://rahul-prajapati.netlify.app",
-  // },
-  // {
-  //   id: 1,
-  //   title: "ExpenseList App",
-  //   date: "Aug 2023 - Sep 2023",
-  //   description:
-  //     "Expense Tracker app for added expenses and view to showes the expense for User",
-  //   image:
-  //     "https://github.com/Raarav/expense_tracker_app/blob/master/Screenshot%20(98).png?raw=true",
-  //   tags: [
-  //     "ReactJs",
-  //     "JavaScript",
-  //     "HTML",
-  //     "CSS",
-  //     "Redux",
-  //   ],
-  //   category: "Frontend app",
-  //   github: "https://github.com/Raarav/expense_tracker_app",
-  //   webapp: "https://expenselistapp.netlify.app/",
-  // },
+  {
+    id: 0,
+    title: "My Portfolio",
+    date: "July 2025 - July 2025",
+    description:
+      "This is my portfolio shows all my Bio in Discription.",
+    image:
+      "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Portfolio.png?raw=true",
+    tags: ["AngularJs", "JavaScript", "HTML", "CSS", "styled-completed"],
+    category: "Frontend app",
+    github: "https://github.com/MANOJ-62/Portfolio",
+    webapp: "https://manoj-62.github.io/Portfolio/",
+  },
+  {
+    id: 1,
+    title: "Portfolio",
+    date: "Sep 2023 - Nov 2023",
+    description:
+      "This is my portfolio shows all my Bio in Description",
+    image:
+      "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Portfolio-old.png?raw=true",
+    tags: [
+      "ReactJs",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Redux",
+    ],
+    category: "Frontend app",
+    github: "https://github.com/MANOJ-62/Portfolio",
+    webapp: "https://manojdev-pf.netlify.app/",
+  },
   // {
   //   id: 2,
   //   title: "hackerRankAutomation",
@@ -477,7 +477,7 @@ export const projects = [
   //   //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
   //   //     github: "https://github.com/upasana0710",
   //   //   },
-  //   // ],
+  //   ],
   // },
 ];
 
