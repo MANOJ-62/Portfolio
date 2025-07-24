@@ -392,9 +392,9 @@ export const projects = [
     title: "My Portfolio",
     date: "July 2025 - July 2025",
     description:
-      "This is my portfolio shows all my Bio in Discription.",
+      "This is my portfolio shows all my Bio in Description.",
     image:
-      "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Portfolio.png?raw=true",
+      "/cerificates/Portfolio.png",
     tags: ["AngularJs", "JavaScript", "HTML", "CSS", "styled-completed"],
     category: "Frontend app",
     github: "https://github.com/MANOJ-62/Portfolio",
@@ -407,7 +407,7 @@ export const projects = [
     description:
       "This is my portfolio shows all my Bio in Description",
     image:
-      "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Portfolio-old.png?raw=true",
+      "/cerificates/Portfolio-old.png",
     tags: [
       "ReactJs",
       "JavaScript",
@@ -486,7 +486,7 @@ export const certificates = [
     id: 0,
     title: "Infosys Certified Java Programmer",
     date: "Nov 2024",
-    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_Java_Programmer.png?raw=true",
+    image: "/cerificates/Infosys_Certified_Java_Programmer.png",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -494,7 +494,7 @@ export const certificates = [
     id: 1,
     title: "Infosys Certified Spring Microservices Developer",
     date: "Nov 2024",
-    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_Spring_Microservices_Developer.png?raw=true",
+    image: "/cerificates/Infosys_Certified_Spring_Microservices_Developer.png",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -502,7 +502,7 @@ export const certificates = [
     id: 2,
     title: "Infosys Certified L1 Junior Web Programmer",
     date: "Nov 2024",
-    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_L1_Junior_Web_Programmer.png?raw=true",
+    image: "/cerificates/Infosys_Certified_L1_Junior_Web_Programmer.png",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -510,7 +510,7 @@ export const certificates = [
     id: 3,
     title: "Infosys Certified L1 Junior Linux Admin Professional",
     date: "Oct 2024",
-    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_L1_Junior_Linux_Admin_Professional.png?raw=true",
+    image: "/cerificates/Infosys_Certified_L1_Junior_Linux_Admin_Professional.png",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -518,7 +518,7 @@ export const certificates = [
     id: 4,
     title: "Infosys Certified L1 Junior Open Source Programmer",
     date: "Oct 2024",
-    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/Infosys_Certified_L1_Junior_Open_Source_Programmer.png?raw=true",
+    image: "/cerificates/Infosys_Certified_L1_Junior_Open_Source_Programmer.png",
     organization: "Infosys Limited",
     url: "verification_url_if_any"
   },
@@ -526,9 +526,9 @@ export const certificates = [
     id: 5,
     title: "Spring Boot Certification",
     date: "Oct 2024",
-    image: "https://github.com/MANOJ-62/Portfolio/blob/main/assets/cerificates/SpringBoot.png?raw=true",
+    image: "/cerificates/SpringBoot.png",
     organization: "Infosys Limited",
-    url: "verification_url_if_any"
+    url: "https://validate.onwingspan.com/"
   },
   // Add more certificates as needed
 ];
